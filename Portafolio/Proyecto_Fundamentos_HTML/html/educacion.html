@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="author" content="Miguel Morales">
+	<title>Proyecto Final - Hoja de Vida Digital</title>
+</head>
+<body>
+	<header>
+		<svg width="150px" height="75px" viewBox="0 0 350 175">
+		  <path id="svg_M1" d="m40.062522,144.796838l22.374978,-62.953088l18.140625,29.53125l20.671875,-34.59375l23.203125,68.765625l-27.84375,-31.21875l-16.875,10.125l-13.5,-11.8125l-26.171853,32.156213z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+		  <path id="svg_A" d="m132.875025,143.953088c0,0 18.984376,-66.656252 18.5781,-66.749963c-0.406276,-0.09371 21.500027,65.062462 21.09375,64.96875c-0.406277,-0.093712 -19.843724,-15.515663 -19.843724,-15.515663c0,0 -16.453126,16.453126 -16.859401,16.359413" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+		  <path id="svg_M2" d="m183.492192,144.257778l22.37498,-62.95309l18.14063,29.53125l20.67187,-34.59375l23.20313,68.76563l-27.84375,-31.21875l-16.875,10.125l-13.5,-11.8125l-26.17186,32.15621z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+		  <path id="svg_R" d="m281.79691,146.48434c0,0 0,-68.76563 0,-68.76563l20.67188,4.21875c8.85937,-2.10938 10.96874,3.375 10.96874,3.375c0,0 -5.48437,3.375 -11.39062,11.39063c-5.90625,8.01563 -17.29688,9.28125 -17.29688,9.28125c0,0 31.64063,38.39062 31.64063,38.39062c0,0 -31.21875,-32.0625 -31.21875,-32.0625c0,0 -3.375,34.17188 -3.375,34.17188z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ff0000"/>
+		</svg>
+		<h1 id="tituloHoja">Hoja de Vida</h1>
+		<h2>Miguel Alfonso Morales Rojo</h2>
+		<h3>Fecha de nacimiento: 09/01/1990</h3>
+		<h3>Lugar de Nacimiento: San Isidro, Lima, Lima, Perú</h3>
+	</header>
+	<p>
+		<ul>
+			<li><a href="../index.html">Inicio</a><br/></li>
+			<li><a href="../html/educacion.html">Educación</a><br/></li>
+			<li><a href="../html/experiencia.html">Experiencia</a><br/></li>
+		</ul>
+	</p>
+	<h2>Educación</h2>
+	<table border="1" cellspacing="0" cellpadding="8">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>Culminó?</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2017</td>
+				<td>PM Certifica</td>
+				<td>Lima</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2017</td>
+				<td>Chamonix</td>
+				<td>Lima</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2016</td>
+				<td>Universidad de Ciencias Aplicadas</td>
+				<td>Lima</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2014</td>
+				<td>Cibertec</td>
+				<td>Lima</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2009</td>
+				<td>Universidad Ricardo Palma</td>
+				<td>Lima</td>
+				<td>Si</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Agregar Estudios</h3>
+	<form>
+		<fieldset style="border: 0; padding-left: 0">
+			<label for="selectAnio">Año:</label>
+			<select id="selectAnio">
+				<option>2017</option>
+				<option>2016</option>
+				<option>2015</option>
+				<option>2014</option>
+				<option>2013</option>
+				<option>2012</option>
+				<option>2011</option>
+				<option>2010</option>
+				<option>2009</option>
+				<option>2008</option>
+				<option>2007</option>
+				<option>2006</option>
+				<option>2005</option>
+				<option>2004</option>
+				<option>2003</option>
+				<option>2002</option>
+				<option>2001</option>
+				<option>2000</option>
+			</select><br/><br/>
+			<label for="inputInstitucion">Institución:</label>
+			<input type="text" id="inputInstitucion" required><br/><br/>
+			<label for="textareaLugar">Lugar:</label>
+			<textarea id="textareaLugar"></textarea><br/><br/>
+			<label for="radioCulmino">¿Culmino?</label><input type="radio" name="radioCulmino">Si<input type="radio" name="radioCulmino">No<br/><br/>
+			<input type="submit" value="Enviar">
+		</fieldset>
+	</form>
+	<footer>
+		<h2>Información de contacto</h2>
+		<p>
+			<b>Correo electrónico: </b><a href="mailto:mmoralesrojo0901@gmail.com?subject=Hi Miguel, I saw your profile">mmoralesrojo0901@gmail.com</a><br/>
+			<b>Teléfono:</b> +51997909941<br/>
+			<b>Redes sociales: </b><a href="https://www.facebook.com/mmoralesrojo" target="_blank">Facebook</a> | <a href="https://twitter.com/mmoralesrojo91" target="_blank">Twitter</a><br/>
+			<b>Dirección: </b>Av. Santa Gertrudis 416 Cercado de Lima, Lima, Lima, Perú
+		</p>
+	</footer>
+</body>
+</html>
