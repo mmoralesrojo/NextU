@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+	<meta name="author" content="Miguel Morales">
+	<title>Proyecto Final CSS</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div id="tituloPagina">
+			Comenzando con la fotografía
+		</div>
+		<div id="barraNavegacion">
+			<nav>
+				<ul>
+					<li class="derecha"><a href="html/retratos.html" title="Retratos">Retratos</a></li>
+					<li><a href="html/paisajes.html" title="Paisajes">Paisajes</a></li>
+					<li class="izquierda"><a class="actual" href="#" title="Inicio">Inicio</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="contenido">
+		<section id="section1">
+			<article>
+				<figure>
+					<img src="img/link1.jpg" alt="Link" title="Link">
+				</figure>
+			</article>
+		</section>
+		<section id="section2">
+			<article id="articlePaisajes">
+				<picture>
+					<source media="(min-width: 900px)" srcset="img/paisaje1.jpg">
+					<source media="(min-width: 768px)" srcset="img/paisaje2.png">
+					<img src="img/paisaje3.png" alt="Paisaje" title="Link">
+				</picture>
+				<div class="tituloImagen">
+					Paisajes
+				</div>
+			</article>
+			<article id="articleRetratos">
+				<picture>
+					<source media="(min-width: 900px)" srcset="img/link2.jpg">
+					<source media="(min-width: 768px)" srcset="img/link3.jpg">
+					<img src="img/link4.jpg" alt="Link" title="Link">
+				</picture>
+				<div class="tituloImagen">
+					Retratos
+				</div>
+			</article>
+		</section>
+	</div>
+	<footer>
+		<div>
+			<h1>Contacto</h1>
+			<ul>
+				<li><a href="mailto:mmoralesrojo0901@gmail.com?subject='Tu página es genial!!!!'">mmoralesrojo0901@gmail.com</a></li>
+				<li>Av. Santa Gertrudis 416</li>
+				<li>Teléfono: +51997909941</li>
+			</ul>
+		</div>
+		<div>
+			<h1>Términos</h1>
+			<ul>
+				<li>No hay términos, sólo espero sea de su agrado</li>
+			</ul>
+		</div>
+		<div>
+			<h1>Redes Sociales</h1>
+			<ul>
+				<li><a href="https://www.facebook.com/mmoralesrojo"><img src="img/facebook-icon.png" alt="Facebook" title="Facebook">Miguel Morales</a></li>
+				<li><a href="https://twitter.com/mmoralesrojo91"><img src="img/twitter-icon.png" alt="Twitter" title="Twitter">@mmoralesrojo91</a></li>
+				<li><a href="https://plus.google.com/103903104708510167542"><img src="img/google-plus-icon.png" alt="Google +" title="Google +">Miguel Morales</a></li>
+			</ul>
+		</div>
+		<div>
+			<h1>Derechos</h1>
+			<ul>
+				<li>© Miguel Morales Rojo - 2018</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
